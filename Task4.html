@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        ul{
+            list-style: none;
+        }
+        li::before{
+            content:  "✓";
+            color:rgb(66, 163, 196) ;
+            font-weight: bold;
+            padding-right: 10px;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+        }
+        img{
+            margin-right: 200px;
+            height: 97vh;
+        }
+        .main{
+            margin: 0 30px ;
+            margin-left: 160px;
+            width: 80%;
+        }
+        h3{
+            color: rgb(66, 163, 196);
+            font-weight: bold;
+            margin-top: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-bottom: 0;
+        }
+        .title{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            margin-top: 0;
+            font-size: 45px;
+            margin-bottom: 5px;
+        }
+        .paragraph{
+            font-size: 400;
+            color: gray;
+        }
+        .list{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            padding-left: 0;
+        }
+        .phone{
+            background-color: rgb(66, 163, 196);
+            width: fit-content;
+            padding: 10px 15px;
+            color: white;
+            margin-top: 10px;
+            display: inline-block;
+        }
+        .bottom{
+            display: inline-block;
+            vertical-align: top;
+            padding-top: 11px;
+            padding-left: 12px;
+        }
+        .num{
+            color:rgb(66, 163, 196) ;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .button{
+            background-color:rgb(66, 163, 196) ;
+            color: white;
+            width: fit-content;
+            padding: 8px 40px;
+            margin-top: 30px;
+            font-size: 12px;
+        }
+        .line{
+            border: 2px solid rgb(66, 163, 196);
+            width: 6px;
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+        }
+        .line-2{
+            border: 2px solid rgb(66, 163, 196);
+            display: inline-block;
+            width: 100px;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+        <h3>About Us</h3>
+        <p class="title">Our experienced instructors are here to help you achieve your language goals</p>
+        <div class="line"></div>
+        <div class="line-2"></div>
+        <p class="paragraph">
+             At <span style="font-style: italic;  font-weight: bold; color: rgb(112, 111, 111);"> Hi Five</span>, we understand that learning a new language can be challenging. 
+             That's why we provide private online English speaking sessions with our highly qualified instructors. 
+             Our platform is designed to give learners the flexibility to choose the number of minutes that best fits their schedule and practice at any time.
+             After each session, we provide personalized feedback that includes corrections to grammar and pronunciation mistakes, as well as new vocabulary words to help our students improve their language skills.
+             We are so confident in the quality of our instruction that<span style="color:rgb(112, 111, 111) ; font-weight: bold;font-size: medium;"> we offer a <span style="color: red; font-size: large;"> free trial session</span> to new students.</span>
+             This allows you to experience our platform and teaching style before committing to a subscription.
+             Our goal is to provide a supportive and engaging learning environment that encourages regular practice and helps our students achieve their language learning goals.
+             Join us today and start your journey to becoming a confident English speaker!
+        </p>
+        <div >
+            <ul class="list">
+                <li>Correction of mistakes</li>
+                <li>continuous improvement</li>
+                <li>Professional instructors</li>
+                <li>Fair Prices</li>
+                <li>online sessions</li>
+                <li>anytime you want</li>
+                <li>one to one</li>
+                <li>anywhere</li>
+            </ul>
+        </div>
+        <div >
+            <div class="phone">
+                <i class="fa fa-phone"></i>
+            </div>
+            <div class="bottom"> 
+            Call to ask any question<br>
+           <span class="num">+962779697216</span> </div>
+        </div>
+        <div class="button">
+            Free Trial
+        </div></div>
+        <div >
+            <img src="./people.jpeg">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    body{
+        background-color: rgb(223, 222, 222);
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(6,235px); 
+        gap: 20px;
+        width: 100%;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        padding-top: 8px;
+    }
+    .box i{padding-top: 0;}
+    .b1 , .b8{
+        background-color: rgb(58, 210, 234);
+    }
+    .b2{
+        background-color: rgb(34, 128, 39);
+        grid-column: span 2;
+    }
+    .b3 , .b10{
+        background-color: rgb(228, 228, 43);
+    }
+    .b4{
+        background-color: orangered;
+    }
+    .b5 , .b7{
+        background-color: rgb(71, 71, 199);
+    }
+    .b6{
+        grid-column: span 2;
+        background-color: orangered;
+    }
+    .b9{
+        background-color: rgb(34, 128, 39);
+    }
+    .main{
+        width: 100%;
+        background-color: white;
+        margin-top: 20px ;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 400px;
+
+    }
+    .container-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2px;
+    }
+    .aside{
+        width: 150px;
+        background-color: rgb(50, 50, 50);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: fit-content;
+        height: 80px;
+        padding-top: 10px;
+    }
+    .aside h4 , .aside h5{
+        margin: 3px 0;
+    }
+    .aside i{
+        padding-top: 0;
+        margin-bottom: 5px;
+    }
+    .a1{
+        margin-top: 50px;
+    }
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="box b1">
+            <i class="fa fa-th-large"></i>
+            <h4>Dashboards</h4>
+        </div>
+        <div class="box b2">
+            <i class="fa fa-line-chart"></i>
+            <h4>Charts</h4>
+        </div>
+        <div class="box b3">
+            <i class="fa fa-columns"></i>
+            <h4>widgets</h4>
+        </div>
+        <div class="box b4">
+            <i class="fa fa-table"></i>
+            <h4>Tables</h4>
+        </div>
+        <div class="box b5">
+            <i class="fa fa-arrows-alt"></i>
+            <h4>Full Width</h4>
+        </div>
+            <div class="box b6">
+            <i class="fa fa-list-alt"></i>
+            <h4>Forms</h4>
+        </div>
+        <div class="box b7"> 
+            <i class="fa fa-square"></i>
+            <h4>Buttons</h4>
+        </div>
+        <div class="box b8">
+            <i class="fa fa-pencil"></i>
+            <h4>Elements</h4>
+        </div>
+        <div class="box b9">
+            <i class="fa fa-calendar"></i>
+            <h4>Calendar</h4>
+        </div>
+        <div class="box b10">
+            <i class="fa fa-warning"></i>
+            <h4>Errors</h4>
+        </div>
+    </div>
+    <div class="main">
+        <img src="./analysis.jpeg">
+        <div class="container-2">
+            <div class="aside a1">
+                <i class="fa fa-user "></i>
+                <h4>2540</h4>
+                <h5>Total Users</h5>
+            </div>
+            <div class="aside a1">
+                <i class="fa fa-plus"></i>
+                <h4>120</h4>
+                <h5>New Users</h5>
+            </div>
+            <div class="aside a2">
+                <i class="fa fa-shopping-cart"></i>
+                <h4>656</h4>
+                <h5>Total Shop</h5>
+            </div>
+            <div class="aside a2">
+                <i class="fa fa-tag"></i>
+                <h4>9540</h4>
+                <h5>Total Orders</h5>
+            </div>
+            <div class="aside a3">
+                <i class="fa fa-list"></i>
+                <h4>100</h4>
+                <h5>Pending Orders</h5>
+            </div>
+            <div class="aside a3">
+                <i class="fa fa-globe"></i>
+                <h4>8540</h4>
+                <h5>Online Orders</h5>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
